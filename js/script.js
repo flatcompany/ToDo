@@ -52,7 +52,7 @@ function createNewElement() {
 }
 
 function addTask() {
-  if (inputTask.value != "") {
+  if (inputTask.value.trim() != "") {
     ul.appendChild(createNewElement());
     inputTask.value = "";
   } else {
