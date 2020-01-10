@@ -56,7 +56,7 @@ function addTask() {
     ul.appendChild(createNewElement());
     inputTask.value = "";
   } else {
-    alert("Ведите текст");
+    alert("Введите текст");
   }
 }
 
