@@ -111,9 +111,3 @@ p {
 .checked {
   text-decoration: line-through;
 }
-
-@media (max-width: 1700px) {
-  /* .content {
-    margin-top: 300px;
-  } */
-}
